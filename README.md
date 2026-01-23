@@ -6,6 +6,7 @@ Engines currently supported:
   - IBM Z:  IBM z/OS Debugger
 
 
+
 > Go here for the full [Documentation](https://www.ibm.com/docs/en/developer-for-zos/latest) online. 
 
 Simplify your installation experience by using newly bundled extension packs that contain IBM Compiled Code Coverage as well as other extensions available for [IDzEE](https://marketplace.visualstudio.com/items?itemName=IBM.developer-for-zos-on-vscode-extension-pack) and [ADFz](https://marketplace.visualstudio.com/items?itemName=IBM.application-delivery-foundation-for-zos-vscode-extension-pack) customers.
@@ -19,12 +20,12 @@ Simplify your installation experience by using newly bundled extension packs tha
 
 ## Prerequisites and Corequisites
 
-Review the [IBM Compiled Code Coverage Agreement](https://github.com/IBM/zopendebug-about/raw/main/product-licenses/LICENSE.txt), terms and conditions for [separately licensed code](https://github.com/IBM/zopendebug-about/raw/main/product-licenses/NON_IBM_LICENSE.txt), and [Third Party Notices](https://github.com/IBM/zopendebug-about/raw/main/product-licenses/NOTICES.txt) before downloading.
+Review the [IBM Compiled Code Coverage Agreement](https://github.com/IBM/compiledcodecoverage-about/raw/main/product-licenses/LICENSE.txt), terms and conditions for [separately licensed code](https://github.com/IBM/compiledcodecoverage-about/raw/main/product-licenses/NON_IBM_LICENSE.txt), and [Third Party Notices](https://github.com/IBM/compiledcodecoverage-about/raw/main/product-licenses/NOTICES.txt) before downloading.
 
 - Client
   - **Prerequisite** [Visual Studio Code](https://code.visualstudio.com/download) version 1.48.2 or later
   - IBM Z
-      - **Corequisite**  [IBM Z Open Debug](https://www.ibm.com/docs/en/developer-for-zos/latest?topic=code-debugging-applications): for automatic code coverage service configuration, and result opening.  
+      - **Corequisite**  [IBM Z Open Debug](https://marketplace.visualstudio.com/items?itemName=IBM.zopendebug): for [automatic code coverage service configuration, and result opening](https://www.ibm.com/docs/en/developer-for-zos/latest?topic=code-debugging-applications).  
 - Host 
   - IBM Z
     - **Prerequisite** One of the following for code coverage collection:
