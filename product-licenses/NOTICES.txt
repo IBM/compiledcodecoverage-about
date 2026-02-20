@@ -1,6 +1,6 @@
 NOTICES AND INFORMATION
 
-IBM Compiled Code Coverage 1.0.1
+IBM Compiled Code Coverage 1.0.2
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -25,22 +25,46 @@ and all liability for errors and omissions or for any damages accruing
 from the use of this NOTICES file or its contents, including without
 limitation URLs or references to any third party websites.
 
-=======================================================================
+SUMMARY
 
+This Program's notices file includes the following licenses and/or notices
+in respect of the identified components:
+
+- Apache Software License 2.0
+- BSD-3-CLAUSE License
+- ZERO-Clause BSD License
+- ISC License
+- MIT License
+- Unlicense license
+
+
+======================================================================
 Apache Software License 2.0
----------------------------
+======================================================================
 
-The Program includes some or all of the following that IBM
-obtained under the Apache License Version 2.0:
+The Program includes some or all of the following that IBM obtained under the 
+Apache Software License 2.0:
 
-carbon-components, @carbon/charts, @carbon/charts, 
-@carbon/charts-react, @carbon/colors, d3-scale-chromatic,
-dompurify, @carbon/feature-flags, @carbon/grid,
-@carbon/icon-helpers, @carbon/icons-react, @carbon/layout,
-@carbon/motion, @carbon/react, @carbon/styles, 
-@carbon/telemetry, @ibm/telemetry-js, @carbon/themes,
-@carbon/type, typescript, typescript, web-vitals
+- @carbon/charts
+- @carbon/charts-react
+- @carbon/colors
+- @carbon/feature-flags
+- @carbon/grid
+- @carbon/icon-helpers
+- @carbon/icons-react
+- @carbon/layout
+- @carbon/motion
+- @carbon/react
+- @carbon/styles
+- @carbon/themes
+- @carbon/type
+- @ibm/telemetry-js
+- d3-scale-chromatic
+- dompurify
+- typescript
+- web-vitals
 
+----------------------------------------------------------------------
 
                                  Apache License
                            Version 2.0, January 2004
@@ -244,15 +268,89 @@ dompurify, @carbon/feature-flags, @carbon/grid,
    See the License for the specific language governing permissions and
    limitations under the License.
 
-=======================================================================
+=====================================================================
+END OF Apache Software License 2.0 NOTICES AND INFORMATION
+=====================================================================
 
-BSD Zero Clause License
------------------------
 
-The Program includes some or all of the following that IBM 
-obtained under the BSD Zero Clause License: 
+======================================================================
+BSD-3-CLAUSE License
+======================================================================
 
-tslib	Copyright (c) Microsoft Corporation.
+The Program includes some or all of the following that IBM obtained under the 
+BSD-3-CLAUSE License:
+
+- d3-array
+  Copyright 2010-2020 Mike Bostock
+- d3-cloud
+  Copyright (c) 2013, Jason Davies.
+- d3-dispatch
+  Copyright 2010-2016 Mike Bostock
+- d3-ease
+  Copyright 2010-2021 Mike Bostock
+  Copyright 2001 Robert Penner
+- d3-path
+  Copyright 2015-2016 Mike Bostock
+- d3-sankey
+  Copyright 2015, Mike Bostock
+- d3-shape
+  Copyright 2010-2015 Mike Bostock
+- hoist-non-react-statics
+  Copyright (c) 2015, Yahoo! Inc. All rights reserved.
+- intl-messageformat
+  Copyright (c) 2013-present, Facebook, Inc.
+- react-intl
+  Copyright 2019 Oath Inc.
+- rw
+  Copyright (c) 2014-2016, Michael Bostock
+- source-map-js
+  Copyright (c) 2009-2011, Mozilla Foundation and contributors
+
+----------------------------------------------------------------------
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions 
+are met:
+
+1. Redistributions of source code must retain the above copyright 
+notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright 
+notice, this list of conditions and the following disclaimer in the 
+documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its 
+contributors may be used to endorse or promote products derived from 
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED 
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A 
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED 
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF 
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+=====================================================================
+END OF BSD-3-CLAUSE LICENSE NOTICES AND INFORMATION
+=====================================================================
+
+
+======================================================================
+ZERO-Clause BSD License
+======================================================================
+
+The Program includes some or all of the following that IBM obtained under the 
+ZERO-Clause BSD License:
+
+- tslib
+  Copyright (c) Microsoft Corporation.
+
+----------------------------------------------------------------------
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted.
@@ -265,285 +363,423 @@ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 
-=======================================================================
-
-BSD 3-Clause License
---------------------
-
-The Program includes some or all of the following that IBM 
-obtained under the BSD 3-Clause License: 
-
-d3-array				Copyright 2010-2020 Mike Bostock
-d3-cloud				Copyright (c) 2013, Jason Davies.
-d3-dispatch				Copyright 2010-2016 Mike Bostock
-d3-ease					Copyright 2010-2021 Mike Bostock,
-						Copyright 2001 Robert Penner
-d3-path					Copyright 2015-2016 Mike Bostock
-d3-sankey				Copyright 2015, Mike Bostock
-d3-shape				Copyright 2010-2015 Mike Bostock
-hoist-non-react-statics			Copyright (c) 2015, Yahoo! Inc.
-intl-messageformat				Copyright (c) 2023, Oath Inc.
-react-intl				Copyright 2019 Oath Inc.
-rw						Copyright (c) 2014-2016, Michael Bostock
-source-map-js 			Copyright (c) 2009-2011, Mozilla Foundation and contributors
-warning					Copyright (c) 2013-2015, Facebook, Inc.
+=====================================================================
+END OF BSD 0-CLAUSE LICENSE NOTICES AND INFORMATION
+=====================================================================
 
 
-Copyright (c) <year> <owner>. All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice,
-this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice,
-this list of conditions and the following disclaimer in the documentation
-and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its contributors
-may be used to endorse or promote products derived from this software without
-specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
-USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-=======================================================================
-
+======================================================================
 ISC License
------------
+======================================================================
 
-The Program includes some or all of the following that IBM 
-obtained under the ISC License: 
+The Program includes some or all of the following that IBM obtained under the 
+ISC License:
 
-anymatch 		 	Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com)
-d3					Copyright 2010-2023 Mike Bostock
-d3-array			Copyright 2010-2023 Mike Bostock
-d3-axis				Copyright 2010-2021 Mike Bostock
-d3-brush			Copyright 2010-2021 Mike Bostock
-d3-chord			Copyright 2010-2021 Mike Bostock
-d3-color			Copyright 2010-2022 Mike Bostock
-d3-contour			Copyright 2012-2023 Mike Bostock
-d3-delaunay			Copyright 2018-2021 Observable, Inc.
-					Copyright 2021 Mapbox
-d3-dispatch			Copyright 2010-2021 Mike Bostock
-d3-drag				Copyright 2010-2021 Mike Bostock
-d3-dsv				Copyright 2013-2021 Mike Bostock
-d3-fetch			Copyright 2016-2021 Mike Bostock
-d3-force			Copyright 2010-2021 Mike Bostock
-d3-format			Copyright 2010-2021 Mike Bostock
-d3-hierarchy		Copyright 2010-2021 Mike Bostock
-d3-interpolate		Copyright 2010-2021 Mike Bostock
-d3-path				Copyright 2015-2022 Mike Bostock
-d3-polygon			Copyright 2010-2021 Mike Bostock
-d3-quadtree			Copyright 2010-2021 Mike Bostock
-d3-random			Copyright 2010-2021 Mike Bostock
-d3-scale			Copyright 2010-2021 Mike Bostock
-d3-selection		Copyright 2010-2021 Mike Bostock
-d3-shape			Copyright 2010-2022 Mike Bostock
-d3-time				Copyright 2010-2022 Mike Bostock
-d3-time-format		Copyright 2010-2021 Mike Bostock
-d3-timer			Copyright 2010-2021 Mike Bostock
-d3-transition		Copyright 2010-2021 Mike Bostock
-d3-zoom				Copyright 2010-2021 Mike Bostock
-delaunator			Copyright (c) 2017, Mapbox
-glob-parent 	 	Copyright (c) 2015, 2019 Elan Shanker
-internmap			Copyright 2021 Mike Bostock
-internmap			Copyright 2021 Mike Bostock
-topojson-client		Copyright 2012-2019 Michael Bostock
+- anymatch
+  Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com)
+- d3
+  Copyright 2010-2023 Mike Bostock
+- d3-array
+  Copyright 2010-2023 Mike Bostock
+- d3-axis
+  Copyright 2010-2021 Mike Bostock
+- d3-brush
+  Copyright 2010-2021 Mike Bostock
+- d3-chord
+  Copyright 2010-2021 Mike Bostock
+- d3-color
+  Copyright 2010-2022 Mike Bostock
+- d3-contour
+  Copyright 2012-2023 Mike Bostock
+- d3-delaunay
+  Copyright 2018-2021 Observable, Inc.
+  Copyright 2021 Mapbox
+- d3-dispatch
+  Copyright 2010-2021 Mike Bostock
+- d3-drag
+  Copyright 2010-2021 Mike Bostock
+- d3-dsv
+  Copyright 2013-2021 Mike Bostock
+- d3-fetch
+  Copyright 2016-2021 Mike Bostock
+- d3-force
+  Copyright 2010-2021 Mike Bostock
+- d3-format
+  Copyright 2010-2021 Mike Bostock
+- d3-hierarchy
+  Copyright 2010-2021 Mike Bostock
+- d3-interpolate
+  Copyright 2010-2021 Mike Bostock
+- d3-path
+  Copyright 2015-2022 Mike Bostock
+- d3-polygon
+  Copyright 2010-2021 Mike Bostock
+- d3-quadtree
+  Copyright 2010-2021 Mike Bostock
+- d3-random
+  Copyright 2010-2021 Mike Bostock
+- d3-scale
+  Copyright 2010-2021 Mike Bostock
+- d3-selection
+  Copyright 2010-2021 Mike Bostock
+- d3-shape
+  Copyright 2010-2022 Mike Bostock
+- d3-time
+  Copyright 2010-2022 Mike Bostock
+- d3-time-format
+  Copyright 2010-2021 Mike Bostock
+- d3-timer
+  Copyright 2010-2021 Mike Bostock
+- d3-transition
+  Copyright 2010-2021 Mike Bostock
+- d3-zoom
+  Copyright 2010-2021 Mike Bostock
+- delaunator
+  Copyright (c) 2017, Mapbox
+- glob-parent
+  Copyright (c) 2015, 2019 Elan Shanker
+- internmap
+  Copyright 2021 Mike Bostock
+- topojson-client
+  Copyright 2012-2019 Michael Bostock
 
-Copyright (c) <year> <owner>
+----------------------------------------------------------------------
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
 copyright notice and this permission notice appear in all copies.
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-=======================================================================
+=====================================================================
+END OF ISC LICENSE NOTICES AND INFORMATION
+=====================================================================
 
+
+======================================================================
 MIT License
------------
+======================================================================
 
-The Program includes some or all of the following that IBM 
-obtained under the MIT License: 
+The Program includes some or all of the following that IBM obtained under the 
+MIT License:
 
-@babel/runtime				Copyright (c) 2014-present Sebastian McKenzie and other contributors
-@carbon/utils-position		Copyright 2019 IBM
-@floating-ui/core			Copyright (c) 2021-present Floating UI contributors
-@floating-ui/dom			Copyright (c) 2021-present Floating UI contributors
-@floating-ui/react			Copyright (c) 2021-present Floating UI contributors
-@floating-ui/react-dom		Copyright (c) 2021-present Floating UI contributors
-@floating-ui/utils			Copyright (c) 2021-present Floating UI contributors
-@formatjs/ecma402-abstract	Copyright (c) 2023 FormatJS
-@formatjs/fast-memoize		Copyright (c) 2021 FormatJS
-@formatjs/icu-messageformat-parser		Copyright (c) 2023 FormatJS
-@formatjs/icu-skeleton-parser			Copyright (c) 2023 FormatJS
-@formatjs/intl					Copyright (c) 2023 FormatJS
-@formatjs/intl-displaynames		Copyright (c) 2023 FormatJS
-@formatjs/intl-listformat		Copyright (c) 2023 FormatJS
-@formatjs/intl-localematcher  	Copyright (c) 2023 FormatJS
-@reduxjs/toolkit			Copyright (c) 2018 Mark Erikson
-@remix-run/router			Copyright (c) React Training LLC 2015-2019
-							Copyright (c) Remix Software Inc. 2020-2021
-							Copyright (c) Shopify Inc. 2022-2023
-@types/d3					Copyright (c) Microsoft Corporation.
-@types/d3-array				Copyright (c) Microsoft Corporation.
-@types/d3-axis				Copyright (c) Microsoft Corporation.
-@types/d3-brush				Copyright (c) Microsoft Corporation.
-@types/d3-chord				Copyright (c) Microsoft Corporation.
-@types/d3-color				Copyright (c) Microsoft Corporation.
-@types/d3-contour			Copyright (c) Microsoft Corporation.
-@types/d3-delaunay			Copyright (c) Microsoft Corporation.
-@types/d3-dispatch			Copyright (c) Microsoft Corporation.
-@types/d3-drag				Copyright (c) Microsoft Corporation.
-@types/d3-dsv				Copyright (c) Microsoft Corporation.
-@types/d3-ease				Copyright (c) Microsoft Corporation.
-@types/d3-fetch				Copyright (c) Microsoft Corporation.
-@types/d3-force				Copyright (c) Microsoft Corporation.
-@types/d3-format			Copyright (c) Microsoft Corporation.
-d3-geo						Copyright (c) Microsoft Corporation.
-@types/d3-geo				Copyright (c) Microsoft Corporation.
-@types/d3-hierarchy			Copyright (c) Microsoft Corporation.
-@types/d3-interpolate		Copyright (c) Microsoft Corporation.
-@types/d3-path				Copyright (c) Microsoft Corporation.
-@types/d3-polygon			Copyright (c) Microsoft Corporation.
-@types/d3-quadtree			Copyright (c) Microsoft Corporation.
-@types/d3-random			Copyright (c) Microsoft Corporation.
-@types/d3-scale				Copyright (c) Microsoft Corporation.
-@types/d3-scale-chromatic	Copyright (c) Microsoft Corporation.
-@types/d3-selection			Copyright (c) Microsoft Corporation.
-@types/d3-shape				Copyright (c) Microsoft Corporation.
-@types/d3-time				Copyright (c) Microsoft Corporation.
-@types/d3-time-format		Copyright (c) Microsoft Corporation.
-@types/d3-timer				Copyright (c) Microsoft Corporation.
-@types/d3-transition		Copyright (c) Microsoft Corporation.
-@types/d3-zoom				Copyright (c) Microsoft Corporation.
-@types/geojson				Copyright (c) Microsoft Corporation.
-@types/hoist-non-react-statics		Copyright (c) Microsoft Corporation.
-@types/prop-types			Copyright (c) Microsoft Corporation.
-@types/react				Copyright (c) Microsoft Corporation.
-@types/scheduler			Copyright (c) Microsoft Corporation.
-@types/topojson				Copyright (c) Microsoft Corporation.
-@types/topojson-client		Copyright (c) Microsoft Corporation.
-@types/topojson-server		Copyright (c) Microsoft Corporation.
-@types/topojson-simplify		Copyright (c) Microsoft Corporation.
-@types/topojson-specification	Copyright (c) Microsoft Corporation.
-@types/trusted-types			Copyright (c) Microsoft Corporation.
-@types/use-sync-external-store	Copyright (c) Microsoft Corporation.
-asynckit					Copyright (c) 2016 Alex Indigo
-axios	 					Copyright (c) 2014-present Matt Zabriskie & Collaborators
-binary-extensions 		 	Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)
-braces	  		 			Copyright (c) 2014-present, Jon Schlinkert.
-call-bind-apply-helpers		Copyright (c) 2024 Jordan Harband
-chokidar					Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker
-classnames					Copyright (c) 2018 Jed Watson
-color						Copyright (c) 2012 Heather Arthur
-color-convert				Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
-color-name					Copyright (c) 2015 Dmitry Ivanov
-color-string				Copyright (c) 2011 Heather Arthur <fayearthur@gmail.com>
-combined-stream				Copyright (c) 2011 Debuggable Limited <felix@debuggable.com>
-commander					Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>
-compute-scroll-into-view		Copyright (c) 2023 Cody Olsen
-copy-to-clipboard			Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
-csstype						Copyright (c) 2017-2018 Fredrik Nicol
-date-fns					Copyright (c) 2021 Sasha Koss and Lesha Koss https://kossnocorp.mit-license.org
-define-lazy-prop			Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-delayed-stream				Copyright (c) 2011 Debuggable Limited <felix@debuggable.com>
-downshift					Copyright (c) 2017 PayPal
-dunder-proto				Copyright (c) 2024 ECMAScript Shims
-es-define-property			Copyright (c) 2024 Jordan Harband
-es-errors					Copyright (c) 2024 Jordan Harband
-es-object-atoms				Copyright (c) 2024 Jordan Harband
-es-set-tostringtag			Copyright (c) 2022 ECMAScript Shims
-fill-range 	 				Copyright (c) 2014-present, Jon Schlinkert.
-flatpickr					Copyright (c) 2017 Gregory Petrosyan
-follow-redirects			Copyright 2014–present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
-form-data					Copyright (c) 2012 Felix Geisendörfer (felix@debuggable.com) and contributors
-fsevents 		 		 	Copyright (C) 2010-2020 by Philipp Dunkel, Ben Noordhuis, Elan Shankar, Paul Miller
-function-bind				Copyright (c) 2013 Raynos.
-get-intrinsic				Copyright (c) 2020 Jordan Harband
-get-proto					Copyright (c) 2025 Jordan Harband
-gopd						Copyright (c) 2022 Jordan Harband
-hasown						Copyright (c) Jordan Harband and contributors
-has-symbols					Copyright (c) 2016 Jordan Harband
-has-tostringtag				Copyright (c) 2021 Inspect JS
-html-to-image				Copyright (c) 2017-2023 W.Y.
-i18next						Copyright (c) 2017 i18next
-iconv-lite					Copyright (c) 2011 Alexander Shtuchkin
-immer						Copyright (c) 2017 Michel Weststrate
-immutable 	 				Copyright (c) 2014-present, Lee Byron and other contributors.
-invariant					Copyright (c) 2013-present, Facebook, Inc.
-is-arrayish					Copyright (c) 2015 JD Ballard
-is-binary-path 				Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)
-is-docker					Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-is-extglob 				 	Copyright (c) 2014-2016, Jon Schlinkert
-is-glob 					Copyright (c) 2014-2017, Jon Schlinkert.
-is-number 					Copyright (c) 2014-present, Jon Schlinkert.
-is-wsl						Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-js-tokens					Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
-lodash.debounce				Copyright jQuery Foundation and other contributors <https://jquery.org/>
-lodash.findlast				Copyright jQuery Foundation and other contributors <https://jquery.org/>
-lodash.omit					Copyright jQuery Foundation and other contributors <https://jquery.org/>
-lodash.throttle				Copyright jQuery Foundation and other contributors <https://jquery.org/>
-lodash-es					Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
-loose-envify				Copyright (c) 2015 Andres Suarez <zertosh@gmail.com>
-math-intrinsics				Copyright (c) 2024 ECMAScript Shims
-mime-db						Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
-							Copyright (c) 2015-2022 Douglas Christopher Wilson <doug@somethingdoug.com>
-mime-types					Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
-							Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
-normalize-path				Copyright (c) 2014-2018, Jon Schlinkert.
-object-assign				Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-open						Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-picomatch 		 		 	Copyright (c) 2017-present, Jon Schlinkert.
-prop-types					Copyright (c) 2013-present, Facebook, Inc.
-proxy-from-env				Copyright (C) 2016-2018 Rob Wu <rob@robwu.nl>
-react						Copyright (c) Facebook, Inc. and its affiliates.
-react-dom					Copyright (c) Facebook, Inc. and its affiliates.
-react-fast-compare			Copyright (c) 2018 Formidable Labs
-							Copyright (c) 2017 Evgeny Poberezkin
-react-is					Copyright (c) Facebook, Inc. and its affiliates.
-react-redux					Copyright (c) 2015-present Dan Abramov
-react-router				Copyright (c) React Training LLC 2015-2019
-							Copyright (c) Remix Software Inc. 2020-2021
-							Copyright (c) Shopify Inc. 2022-2023
-react-router-dom			Copyright (c) React Training LLC 2015-2019
-							Copyright (c) Remix Software Inc. 2020-2021
-							Copyright (c) Shopify Inc. 2022-2023
-readdirp 					Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com)
-redux						Copyright (c) 2015-present Dan Abramov
-redux-thunk					Copyright (c) 2015-present Dan Abramov
-regenerator-runtime			Copyright (c) 2014-present, Facebook, Inc.
-reselect					Copyright (c) 2015-2018 Reselect Contributors
-resize-observer-polyfill	Copyright (c) 2016 Denis Rul
-safer-buffer				Copyright (c) 2018 Nikita Skovoroda <chalkerx@gmail.com>
-sass 					 	Copyright (c) 2016, Google Inc.
-scheduler					Copyright (c) Facebook, Inc. and its affiliates.
-simple-swizzle				Copyright (c) 2015 Josh Junon
-tabbable					Copyright (c) 2015 David Clark
-toggle-selection			Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
-to-regex-range 				Copyright (c) 2015-present, Jon Schlinkert.
-use-resize-observer			Copyright 2018 Viktor Hubert <rpgmorpheus@gmail.com>
-use-sync-external-store		Copyright (c) Facebook, Inc. and its affiliates.
-window-or-global			Copyright (c) Purpose Industries
+- @babel/runtime
+  Copyright (c) 2014-present Sebastian McKenzie and other contributors
+- @carbon/utils-position
+  Copyright 2019 IBM
+- @floating-ui/core
+  Copyright (c) 2021-present Floating UI contributors
+- @floating-ui/dom
+  Copyright (c) 2021-present Floating UI contributors
+- @floating-ui/react
+  Copyright (c) 2021-present Floating UI contributors
+- @floating-ui/react-dom
+  Copyright (c) 2021-present Floating UI contributors
+- @floating-ui/utils
+  Copyright (c) 2021-present Floating UI contributors
+- @formatjs/ecma402-abstract
+  Copyright (c) 2023 FormatJS
+- @formatjs/fast-memoize
+  Copyright (c) 2021 FormatJS
+- @formatjs/icu-messageformat-parser
+  Copyright (c) 2023 FormatJS
+- @formatjs/icu-skeleton-parser
+  Copyright (c) 2023 FormatJS
+- @formatjs/intl
+  Copyright (c) 2023 FormatJS
+- @formatjs/intl-displaynames
+  Copyright (c) 2023 FormatJS
+- @formatjs/intl-listformat
+  Copyright (c) 2023 FormatJS
+- @formatjs/intl-localematcher
+  Copyright (c) 2023 FormatJS
+- @reduxjs/toolkit
+  Copyright (c) 2018 Mark Erikson
+- @remix-run/router
+  Copyright (c) React Training LLC 2015-2019
+  Copyright (c) Remix Software Inc. 2020-2021
+  Copyright (c) Shopify Inc. 2022-2023
+- @types/d3
+  Copyright (c) Microsoft Corporation.
+- @types/d3-array
+  Copyright (c) Microsoft Corporation.
+- @types/d3-axis
+  Copyright (c) Microsoft Corporation.
+- @types/d3-brush
+  Copyright (c) Microsoft Corporation.
+- @types/d3-chord
+  Copyright (c) Microsoft Corporation.
+- @types/d3-color
+  Copyright (c) Microsoft Corporation.
+- @types/d3-contour
+  Copyright (c) Microsoft Corporation.
+- @types/d3-delaunay
+  Copyright (c) Microsoft Corporation.
+- @types/d3-dispatch
+  Copyright (c) Microsoft Corporation.
+- @types/d3-drag
+  Copyright (c) Microsoft Corporation.
+- @types/d3-dsv
+  Copyright (c) Microsoft Corporation.
+- @types/d3-ease
+  Copyright (c) Microsoft Corporation.
+- @types/d3-fetch
+  Copyright (c) Microsoft Corporation.
+- @types/d3-force
+  Copyright (c) Microsoft Corporation.
+- @types/d3-format
+  Copyright (c) Microsoft Corporation.
+- @types/d3-geo
+  Copyright (c) Microsoft Corporation.
+- @types/d3-hierarchy
+  Copyright (c) Microsoft Corporation.
+- @types/d3-interpolate
+  Copyright (c) Microsoft Corporation.
+- @types/d3-path
+  Copyright (c) Microsoft Corporation.
+- @types/d3-polygon
+  Copyright (c) Microsoft Corporation.
+- @types/d3-quadtree
+  Copyright (c) Microsoft Corporation.
+- @types/d3-random
+  Copyright (c) Microsoft Corporation.
+- @types/d3-scale
+  Copyright (c) Microsoft Corporation.
+- @types/d3-scale-chromatic
+  Copyright (c) Microsoft Corporation.
+- @types/d3-selection
+  Copyright (c) Microsoft Corporation.
+- @types/d3-shape
+  Copyright (c) Microsoft Corporation.
+- @types/d3-time
+  Copyright (c) Microsoft Corporation.
+- @types/d3-time-format
+  Copyright (c) Microsoft Corporation.
+- @types/d3-timer
+  Copyright (c) Microsoft Corporation.
+- @types/d3-transition
+  Copyright (c) Microsoft Corporation.
+- @types/d3-zoom
+  Copyright (c) Microsoft Corporation.
+- @types/geojson
+  Copyright (c) Microsoft Corporation.
+- @types/hoist-non-react-statics
+  Copyright (c) Microsoft Corporation.
+- @types/prop-types
+  Copyright (c) Microsoft Corporation.
+- @types/react
+  Copyright (c) Microsoft Corporation.
+- @types/scheduler
+  Copyright (c) Microsoft Corporation.
+- @types/topojson
+  Copyright (c) Microsoft Corporation.
+- @types/topojson-client
+  Copyright (c) Microsoft Corporation.
+- @types/topojson-server
+  Copyright (c) Microsoft Corporation.
+- @types/topojson-simplify
+  Copyright (c) Microsoft Corporation.
+- @types/topojson-specification
+  Copyright (c) Microsoft Corporation.
+- @types/trusted-types
+  Copyright (c) Microsoft Corporation.
+- @types/use-sync-external-store
+  Copyright (c) Microsoft Corporation.
+- asynckit
+  Copyright (c) 2016 Alex Indigo
+- axios
+  Copyright (c) 2014-present Matt Zabriskie & Collaborators
+- binary-extensions
+  Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)
+- braces
+  Copyright (c) 2014-present, Jon Schlinkert.
+- call-bind-apply-helpers
+  Copyright (c) 2024 Jordan Harband
+- chokidar
+  Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker
+- classnames
+  Copyright (c) 2018 Jed Watson
+- color
+  Copyright (c) 2012 Heather Arthur
+- color-convert
+  Copyright (c) 2011-2016 Heather Arthur <fayearthur@gmail.com>
+- color-name
+  Copyright (c) 2015 Dmitry Ivanov
+- color-string
+  Copyright (c) 2011 Heather Arthur <fayearthur@gmail.com>
+- combined-stream
+  Copyright (c) 2011 Debuggable Limited <felix@debuggable.com>
+- commander
+  Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>
+- compute-scroll-into-view
+  Copyright (c) 2023 Cody Olsen
+- copy-to-clipboard
+  Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
+- csstype
+  Copyright (c) 2017-2018 Fredrik Nicol
+- d3-geo
+  Copyright 2008-2012 Charles Karney
+- date-fns
+  Copyright (c) 2021 Sasha Koss and Lesha Koss https://kossnocorp.mit-license.org
+- define-lazy-prop
+  Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+- delayed-stream
+  Copyright (c) 2011 Debuggable Limited <felix@debuggable.com>
+- downshift
+  Copyright (c) 2017 PayPal
+- dunder-proto
+  Copyright (c) 2024 ECMAScript Shims
+- es-define-property
+  Copyright (c) 2024 Jordan Harband
+- es-errors
+  Copyright (c) 2024 Jordan Harband
+- es-object-atoms
+  Copyright (c) 2024 Jordan Harband
+- es-set-tostringtag
+  Copyright (c) 2022 ECMAScript Shims
+- fill-range
+  Copyright (c) 2014-present, Jon Schlinkert.
+- flatpickr
+  Copyright (c) 2017 Gregory Petrosyan
+- follow-redirects
+  Copyright 2014-present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
+- form-data
+  Copyright (c) 2012 Felix Geisendorfer (felix@debuggable.com) and contributors
+- fsevents
+  Copyright (C) 2010-2020 by Philipp Dunkel, Ben Noordhuis, Elan Shankar, Paul Miller
+- function-bind
+  Copyright (c) 2013 Raynos.
+- get-intrinsic
+  Copyright (c) 2020 Jordan Harband
+- get-proto
+  Copyright (c) 2025 Jordan Harband
+- gopd
+  Copyright (c) 2022 Jordan Harband
+- has-symbols
+  Copyright (c) 2016 Jordan Harband
+- has-tostringtag
+  Copyright (c) 2021 Inspect JS
+- hasown
+  Copyright (c) Jordan Harband and contributors
+- html-to-image
+  Copyright (c) 2017-2023 W.Y.
+- i18next
+  Copyright (c) 2025 i18next
+- iconv-lite
+  Copyright (c) 2011 Alexander Shtuchkin
+- immer
+  Copyright (c) 2017 Michel Weststrate
+- immutable
+  Copyright (c) 2014-present, Lee Byron and other contributors.
+- invariant
+  Copyright (c) 2013-present, Facebook, Inc.
+- is-arrayish
+  Copyright (c) 2015 JD Ballard
+- is-binary-path
+  Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)
+- is-docker
+  Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+- is-extglob
+  Copyright (c) 2014-2016, Jon Schlinkert
+- is-glob
+  Copyright (c) 2014-2017, Jon Schlinkert.
+- is-number
+  Copyright (c) 2014-present, Jon Schlinkert.
+- is-wsl
+  Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+- js-tokens
+  Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
+- lodash-es
+  Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+- lodash.debounce
+  Copyright jQuery Foundation and other contributors <https://jquery.org/>
+- lodash.findlast
+  Copyright jQuery Foundation and other contributors <https://jquery.org/>
+- lodash.omit
+  Copyright jQuery Foundation and other contributors <https://jquery.org/>
+- lodash.throttle
+  Copyright jQuery Foundation and other contributors <https://jquery.org/>
+- loose-envify
+  Copyright (c) 2015 Andres Suarez <zertosh@gmail.com>
+- math-intrinsics
+  Copyright (c) 2024 ECMAScript Shims
+- mime-db
+  Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
+  Copyright (c) 2015-2022 Douglas Christopher Wilson <doug@somethingdoug.com>
+- mime-types
+  Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
+  Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+- normalize-path
+  Copyright (c) 2014-2018, Jon Schlinkert.
+- object-assign
+  Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+- open
+  Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
+- picomatch
+  Copyright (c) 2017-present, Jon Schlinkert.
+- prop-types
+  Copyright (c) 2013-present, Facebook, Inc.
+- proxy-from-env
+  Copyright (C) 2016-2018 Rob Wu <rob@robwu.nl>
+- react
+  Copyright (c) Facebook, Inc. and its affiliates.
+- react-dom
+  Copyright (c) Facebook, Inc. and its affiliates.
+- react-fast-compare
+  Copyright (c) 2018 Formidable Labs
+  Copyright (c) 2017 Evgeny Poberezkin
+- react-is
+  Copyright (c) Facebook, Inc. and its affiliates.
+- react-redux
+  Copyright (c) 2015-present Dan Abramov
+- react-router
+  Copyright (c) React Training LLC 2015-2019
+  Copyright (c) Remix Software Inc. 2020-2021
+  Copyright (c) Shopify Inc. 2022-2023
+- react-router-dom
+  Copyright (c) React Training LLC 2015-2019
+  Copyright (c) Remix Software Inc. 2020-2021
+  Copyright (c) Shopify Inc. 2022-2023
+- readdirp
+  Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com)
+- redux
+  Copyright (c) 2015-present Dan Abramov
+- redux-thunk
+  Copyright (c) 2015-present Dan Abramov
+- regenerator-runtime
+  Copyright (c) 2014-present, Facebook, Inc.
+- reselect
+  Copyright (c) 2015-2018 Reselect Contributors
+- resize-observer-polyfill
+  Copyright (c) 2016 Denis Rul
+- safer-buffer
+  Copyright (c) 2018 Nikita Skovoroda <chalkerx@gmail.com>
+- sass
+  Copyright (c) 2016, Google Inc.
+- scheduler
+  Copyright (c) Facebook, Inc. and its affiliates.
+- simple-swizzle
+  Copyright (c) 2015 Josh Junon
+- tabbable
+  Copyright (c) 2015 David Clark
+- to-regex-range
+  Copyright (c) 2015-present, Jon Schlinkert.
+- toggle-selection
+  Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
+- use-resize-observer
+  Copyright 2018 Viktor Hubert <rpgmorpheus@gmail.com>
+- use-sync-external-store
+  Copyright (c) Facebook, Inc. and its affiliates.
+- window-or-global
+  Copyright (c) Purpose Industries
 
-
-Copyright (c) <year> <owner>
+----------------------------------------------------------------------
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -563,15 +799,21 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-=======================================================================
+=====================================================================
+END OF MIT LICENSE NOTICES AND INFORMATION
+=====================================================================
 
-Unlicense
----------
 
-The Program includes the following that IBM obtained under the Unlicense:
+======================================================================
+Unlicense license
+======================================================================
 
-robust-predicates		
+The Program includes some or all of the following that IBM obtained under the 
+Unlicense license:
 
+- robust-predicates
+
+----------------------------------------------------------------------
 
 This is free and unencumbered software released into the public domain.
 
@@ -596,14 +838,18 @@ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-For more information, please refer to <http://unlicense.org>
+For more information, please refer to <https://unlicense.org/>
 
-=======================================================================
+=====================================================================
+END OF Unlicense LICENSE NOTICES AND INFORMATION
+=====================================================================
 
-END OF IBM COMPILED CODE COVERAGE NOTICES and INFORMATION
 
-==================================================================================
+======================================================================
+END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.2
+======================================================================
 
-L/N: L-LYQM-Q8YMFW
-D/N: L-LYQM-Q8YMFW
-P/N: L-LYQM-Q8YMFW
+
+L/N: L-WLKK-N6K4DP
+D/N: L-WLKK-N6K4DP
+P/N: L-WLKK-N6K4DP
