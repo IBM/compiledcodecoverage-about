@@ -2,6 +2,12 @@
 
 All notable changes to the "IBM Compiled Code Coverage" extension will be documented in this file.
 
+## v1.0.3
+- Added Test Coverage support for IBM TAZ EDT extension, which will require Debugger for z/OS 17.0.4.1 PTF or later.
+
+### Fixes
+- Security fixes.
+
 ## v1.0.2
 - Added user setting to reuse the Code Coverage results window.
 
