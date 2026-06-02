@@ -1,6 +1,6 @@
 NOTICES AND INFORMATION
 
-IBM Compiled Code Coverage 1.0.3
+IBM Compiled Code Coverage 1.0.4
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -846,10 +846,10 @@ END OF Unlicense LICENSE NOTICES AND INFORMATION
 
 
 ======================================================================
-END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.3
+END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.4
 ======================================================================
 
 
-L/N: L-SYUN-J7K8AJ
-D/N: L-SYUN-J7K8AJ
-P/N: L-SYUN-J7K8AJ
+L/N: L-UUSZ-WJ3EDC
+D/N: L-UUSZ-WJ3EDC
+P/N: L-UUSZ-WJ3EDC
