@@ -2,6 +2,15 @@
 
 All notable changes to the "IBM Compiled Code Coverage" extension will be documented in this file.
 
+## 1.0.5
+- Improvements to accessibility.
+- Compiled Code Coverage extension now respects the IBM Z Open Debug extension's Zowe profile ```rejectUnauthorized``` setting when connecting to Code Coverage Service, ignoring certificate errors when set to ```false```.
+
+### Fixes
+- Security fixes.
+- Fixed an issue where IBM TAZ EDT unit test coverage view only displayed one source file.
+- Fixed an issue where IBM TAZ EDT unit test coverage was not displayed when a source file was set to listing mode and the CSECT name differed from the module name.
+
 ## 1.0.4
 ### Fixes
 - Security fixes.

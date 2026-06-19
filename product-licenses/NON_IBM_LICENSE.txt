@@ -1,6 +1,6 @@
 TERMS AND CONDITIONS FOR SEPARATELY LICENSED CODE
 
-IBM Compiled Code Coverage 1.0.4
+IBM Compiled Code Coverage 1.0.5
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -132,10 +132,10 @@ END OF SIL OPEN FONT LICENSE Version 1.1 NOTICES AND INFORMATION
 
 
 ======================================================================
-END OF NON-IBM LICENSE INFORMATION for IBM Compiled Code Coverage 1.0.4
+END OF NON-IBM LICENSE INFORMATION for IBM Compiled Code Coverage 1.0.5
 ======================================================================
 
 
-L/N: L-UUSZ-WJ3EDC
-D/N: L-UUSZ-WJ3EDC
-P/N: L-UUSZ-WJ3EDC
+L/N: L-VALT-2EDYQS
+D/N: L-VALT-2EDYQS
+P/N: L-VALT-2EDYQS
