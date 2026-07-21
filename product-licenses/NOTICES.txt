@@ -1,6 +1,6 @@
 NOTICES AND INFORMATION
 
-IBM Compiled Code Coverage 1.0.5
+IBM Compiled Code Coverage 1.0.6
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -9,9 +9,8 @@ above ("the Program").
 
 Notwithstanding the terms and conditions of any other agreement Licensee
 may have with IBM or any of its related or affiliated entities
-(collectively "IBM"), the third party code identified below is subject
-to the terms and conditions of the IBM license agreement for the Program
-and not the license terms that may be contained in the notices below.
+(collectively "IBM"), the following licenses apply to the applicable
+third party code included in this application.
 The notices are provided for informational purposes.
 
 Please note: This Notices file may identify information that is not used
@@ -594,6 +593,8 @@ MIT License:
   Copyright (c) Microsoft Corporation.
 - @types/use-sync-external-store
   Copyright (c) Microsoft Corporation.
+- agent-base
+  Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
 - asynckit
   Copyright (c) 2016 Alex Indigo
 - axios
@@ -628,6 +629,9 @@ MIT License:
   Copyright (c) 2017-2018 Fredrik Nicol
 - date-fns
   Copyright (c) 2021 Sasha Koss and Lesha Koss https://kossnocorp.mit-license.org
+- debug
+  Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
+  Copyright (c) 2018-2021 Josh Junon
 - define-lazy-prop
   Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 - delayed-stream
@@ -651,7 +655,7 @@ MIT License:
 - follow-redirects
   Copyright 2014–present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
 - form-data
-  Copyright (c) 2012 Felix Geisendorfer (felix@debuggable.com) and contributors
+  Copyright (c) 2012 Felix Geisendörfer (felix@debuggable.com) and contributors
 - fsevents
   Copyright (C) 2010-2020 by Philipp Dunkel, Ben Noordhuis, Elan Shankar, Paul Miller
 - function-bind
@@ -670,6 +674,8 @@ MIT License:
   Copyright (c) Jordan Harband and contributors
 - html-to-image
   Copyright (c) 2017-2023 W.Y.
+- https-proxy-agent
+  Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
 - i18next
   Copyright (c) 2025 i18next
 - iconv-lite
@@ -716,6 +722,8 @@ MIT License:
 - mime-types
   Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
   Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+- ms
+  Copyright (c) 2020 Vercel, Inc.
 - normalize-path
   Copyright (c) 2014-2018, Jon Schlinkert.
 - object-assign
@@ -847,10 +855,10 @@ END OF Unlicense LICENSE NOTICES AND INFORMATION
 
 
 ======================================================================
-END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.5
+END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.6
 ======================================================================
 
 
-L/N: L-VALT-2EDYQS
-D/N: L-VALT-2EDYQS
-P/N: L-VALT-2EDYQS
+L/N: L-UWKL-V877JU
+D/N: L-UWKL-V877JU
+P/N: L-UWKL-V877JU

@@ -2,6 +2,10 @@
 
 All notable changes to the "IBM Compiled Code Coverage" extension will be documented in this file.
 
+## 1.0.6
+### Fixes
+- Security fixes.
+
 ## 1.0.5
 - Improvements to accessibility.
 - Compiled Code Coverage extension now respects the IBM Z Open Debug extension's Zowe profile ```rejectUnauthorized``` setting when connecting to Code Coverage Service, ignoring certificate errors when set to ```false```.
