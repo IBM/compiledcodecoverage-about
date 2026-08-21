@@ -1,6 +1,6 @@
 NOTICES AND INFORMATION
 
-IBM Compiled Code Coverage 1.0.6
+IBM Compiled Code Coverage 1.0.7
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -57,7 +57,12 @@ Apache Software License 2.0:
 - @carbon/styles
 - @carbon/themes
 - @carbon/type
+- @carbon/utilities
 - @ibm/telemetry-js
+- @internationalized/number
+- @swc/helpers
+- d3-scale-chromatic
+- detect-libc
 - dompurify
 - typescript
 - web-vitals
@@ -296,7 +301,7 @@ BSD-3-CLAUSE License:
 - hoist-non-react-statics
   Copyright (c) 2015, Yahoo! Inc. All rights reserved.
 - intl-messageformat
-  Copyright (c) 2013-present, Facebook, Inc.
+  Copyright (c) 2021, Oath Inc.
 - react-intl
   Copyright 2019 Oath Inc.
 - rw
@@ -373,8 +378,6 @@ ISC License
 The Program includes some or all of the following that IBM obtained under the 
 ISC License:
 
-- anymatch
-  Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com)
 - d3
   Copyright 2010-2023 Mike Bostock
 - d3-array
@@ -403,9 +406,9 @@ ISC License:
 - d3-force
   Copyright 2010-2021 Mike Bostock
 - d3-format
-  Copyright 2010-2021 Mike Bostock
+  Copyright 2010-2026 Mike Bostock
 - d3-geo
-  Copyright 2008-2012 Charles Karney
+  Copyright 2010-2024 Mike Bostock
 - d3-hierarchy
   Copyright 2010-2021 Mike Bostock
 - d3-interpolate
@@ -419,8 +422,6 @@ ISC License:
 - d3-random
   Copyright 2010-2021 Mike Bostock
 - d3-scale
-  Copyright 2010-2021 Mike Bostock
-- d3-scale-chromatic
   Copyright 2010-2021 Mike Bostock
 - d3-selection
   Copyright 2010-2021 Mike Bostock
@@ -437,9 +438,7 @@ ISC License:
 - d3-zoom
   Copyright 2010-2021 Mike Bostock
 - delaunator
-  Copyright (c) 2017, Mapbox
-- glob-parent
-  Copyright (c) 2015, 2019 Elan Shanker
+  Copyright (c) 2026, Mapbox
 - internmap
   Copyright 2021 Mike Bostock
 - topojson-client
@@ -486,27 +485,53 @@ MIT License:
 - @floating-ui/utils
   Copyright (c) 2021-present Floating UI contributors
 - @formatjs/ecma402-abstract
-  Copyright (c) 2023 FormatJS
+  Copyright (c) 2021 FormatJS
 - @formatjs/fast-memoize
   Copyright (c) 2021 FormatJS
 - @formatjs/icu-messageformat-parser
-  Copyright (c) 2023 FormatJS
+  Copyright (c) 2021 FormatJS
 - @formatjs/icu-skeleton-parser
-  Copyright (c) 2023 FormatJS
+  Copyright (c) 2021 FormatJS
 - @formatjs/intl
-  Copyright (c) 2023 FormatJS
+  Copyright (c) 2021 FormatJS
 - @formatjs/intl-displaynames
-  Copyright (c) 2023 FormatJS
+  Copyright (c) 2021 FormatJS
 - @formatjs/intl-listformat
-  Copyright (c) 2023 FormatJS
+  Copyright (c) 2021 FormatJS
 - @formatjs/intl-localematcher
-  Copyright (c) 2023 FormatJS
+  Copyright (c) 2021 FormatJS
+- @parcel/watcher
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-android-arm64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-darwin-arm64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-darwin-x64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-freebsd-x64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-arm-glibc
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-arm-musl
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-arm64-glibc
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-arm64-musl
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-x64-glibc
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-x64-musl
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-win32-arm64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-win32-x64
+  Copyright (c) 2017-present Devon Govett
 - @reduxjs/toolkit
   Copyright (c) 2018 Mark Erikson
-- @remix-run/router
-  Copyright (c) React Training LLC 2015-2019
-  Copyright (c) Remix Software Inc. 2020-2021
-  Copyright (c) Shopify Inc. 2022-2023
+- @standard-schema/spec
+  Copyright (c) 2024 Colin McDonnell
+- @standard-schema/utils
+  Copyright (c) 2024 Fabian Hiller
 - @types/d3
   Copyright (c) Microsoft Corporation.
 - @types/d3-array
@@ -577,8 +602,6 @@ MIT License:
   Copyright (c) Microsoft Corporation.
 - @types/react
   Copyright (c) Microsoft Corporation.
-- @types/scheduler
-  Copyright (c) Microsoft Corporation.
 - @types/topojson
   Copyright (c) Microsoft Corporation.
 - @types/topojson-client
@@ -599,14 +622,10 @@ MIT License:
   Copyright (c) 2016 Alex Indigo
 - axios
   Copyright (c) 2014-present Matt Zabriskie & Collaborators
-- binary-extensions
-  Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)
-- braces
-  Copyright (c) 2014-present, Jon Schlinkert.
 - call-bind-apply-helpers
   Copyright (c) 2024 Jordan Harband
 - chokidar
-  Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker
+  Copyright (c) 2012 Paul Miller (https://paulmillr.com), Elan Shanker
 - classnames
   Copyright (c) 2018 Jed Watson
 - color
@@ -622,7 +641,10 @@ MIT License:
 - commander
   Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>
 - compute-scroll-into-view
-  Copyright (c) 2023 Cody Olsen
+  Copyright (c) 2025 Cody Olsen
+- cookie
+  Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>
+  Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
 - copy-to-clipboard
   Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
 - csstype
@@ -648,16 +670,14 @@ MIT License:
   Copyright (c) 2024 Jordan Harband
 - es-set-tostringtag
   Copyright (c) 2022 ECMAScript Shims
-- fill-range
-  Copyright (c) 2014-present, Jon Schlinkert.
+- es-toolkit
+  Copyright (c) 2024 Viva Republica, Inc.
 - flatpickr
   Copyright (c) 2017 Gregory Petrosyan
 - follow-redirects
   Copyright 2014–present Olivier Lalonde <olalonde@gmail.com>, James Talmage <james@talmage.io>, Ruben Verborgh
 - form-data
   Copyright (c) 2012 Felix Geisendörfer (felix@debuggable.com) and contributors
-- fsevents
-  Copyright (C) 2010-2020 by Philipp Dunkel, Ben Noordhuis, Elan Shankar, Paul Miller
 - function-bind
   Copyright (c) 2013 Raynos.
 - get-intrinsic
@@ -683,35 +703,23 @@ MIT License:
 - immer
   Copyright (c) 2017 Michel Weststrate
 - immutable
-  Copyright (c) 2014-present, Lee Byron and other contributors.
+  Copyright (c) 2014-present, Lee Byron and other contributors
 - invariant
   Copyright (c) 2013-present, Facebook, Inc.
 - is-arrayish
   Copyright (c) 2015 JD Ballard
-- is-binary-path
-  Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)
 - is-docker
   Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 - is-extglob
   Copyright (c) 2014-2016, Jon Schlinkert
 - is-glob
   Copyright (c) 2014-2017, Jon Schlinkert.
-- is-number
-  Copyright (c) 2014-present, Jon Schlinkert.
 - is-wsl
   Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 - js-tokens
   Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
 - lodash-es
   Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
-- lodash.debounce
-  Copyright jQuery Foundation and other contributors <https://jquery.org/>
-- lodash.findlast
-  Copyright jQuery Foundation and other contributors <https://jquery.org/>
-- lodash.omit
-  Copyright jQuery Foundation and other contributors <https://jquery.org/>
-- lodash.throttle
-  Copyright jQuery Foundation and other contributors <https://jquery.org/>
 - loose-envify
   Copyright (c) 2015 Andres Suarez <zertosh@gmail.com>
 - math-intrinsics
@@ -724,8 +732,8 @@ MIT License:
   Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
 - ms
   Copyright (c) 2020 Vercel, Inc.
-- normalize-path
-  Copyright (c) 2014-2018, Jon Schlinkert.
+- node-addon-api
+  Copyright (c) 2017 [Node.js API collaborators](https://github.com/nodejs/node-addon-api#collaborators)
 - object-assign
   Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 - open
@@ -745,6 +753,8 @@ MIT License:
   Copyright (c) 2017 Evgeny Poberezkin
 - react-is
   Copyright (c) Facebook, Inc. and its affiliates.
+- react-is
+  Copyright (c) Meta Platforms, Inc. and affiliates.
 - react-redux
   Copyright (c) 2015-present Dan Abramov
 - react-router
@@ -765,28 +775,22 @@ MIT License:
   Copyright (c) 2014-present, Facebook, Inc.
 - reselect
   Copyright (c) 2015-2018 Reselect Contributors
-- resize-observer-polyfill
-  Copyright (c) 2016 Denis Rul
 - safer-buffer
   Copyright (c) 2018 Nikita Skovoroda <chalkerx@gmail.com>
 - sass
   Copyright (c) 2016, Google Inc.
 - scheduler
   Copyright (c) Facebook, Inc. and its affiliates.
+- set-cookie-parser
+  Copyright (c) 2015 Nathan Friedly <nathan@nfriedly.com> (http://nfriedly.com/)
 - simple-swizzle
   Copyright (c) 2015 Josh Junon
 - tabbable
   Copyright (c) 2015 David Clark
-- to-regex-range
-  Copyright (c) 2015-present, Jon Schlinkert.
 - toggle-selection
   Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
-- use-resize-observer
-  Copyright 2018 Viktor Hubert <rpgmorpheus@gmail.com>
 - use-sync-external-store
-  Copyright (c) Facebook, Inc. and its affiliates.
-- window-or-global
-  Copyright (c) Purpose Industries
+  Copyright (c) Meta Platforms, Inc. and affiliates.
 
 ----------------------------------------------------------------------
 
@@ -855,10 +859,10 @@ END OF Unlicense LICENSE NOTICES AND INFORMATION
 
 
 ======================================================================
-END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.6
+END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.7
 ======================================================================
 
 
-L/N: L-UWKL-V877JU
-D/N: L-UWKL-V877JU
-P/N: L-UWKL-V877JU
+L/N: L-ZGRJ-RVG949
+D/N: L-ZGRJ-RVG949
+P/N: L-ZGRJ-RVG949

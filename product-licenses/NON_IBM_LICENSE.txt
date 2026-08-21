@@ -1,6 +1,6 @@
 TERMS AND CONDITIONS FOR SEPARATELY LICENSED CODE
 
-IBM Compiled Code Coverage 1.0.6
+IBM Compiled Code Coverage 1.0.7
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -29,6 +29,14 @@ The Program includes some or all of the following works licensed under
 the SIL OPEN FONT LICENSE 1.1:
 
 - @ibm/plex
+- @ibm/plex-mono
+- @ibm/plex-sans
+- @ibm/plex-sans-arabic
+- @ibm/plex-sans-devanagari
+- @ibm/plex-sans-hebrew
+- @ibm/plex-sans-thai
+- @ibm/plex-sans-thai-looped
+- @ibm/plex-serif
   Copyright (c) 2017 IBM Corp. with Reserved Font Name "Plex"
 
 ----------------------------------------------------------------------
@@ -132,10 +140,10 @@ END OF SIL OPEN FONT LICENSE Version 1.1 NOTICES AND INFORMATION
 
 
 ======================================================================
-END OF NON-IBM LICENSE INFORMATION for IBM Compiled Code Coverage 1.0.6
+END OF NON-IBM LICENSE INFORMATION for IBM Compiled Code Coverage 1.0.7
 ======================================================================
 
 
-L/N: L-UWKL-V877JU
-D/N: L-UWKL-V877JU
-P/N: L-UWKL-V877JU
+L/N: L-ZGRJ-RVG949
+D/N: L-ZGRJ-RVG949
+P/N: L-ZGRJ-RVG949
