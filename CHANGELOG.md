@@ -2,6 +2,10 @@
 
 All notable changes to the "IBM Compiled Code Coverage" extension will be documented in this file.
 
+## 1.0.8
+
+- Defect and security fixes.
+
 ## 1.0.7
 
 - Coverage results in the Coverage Results View and the CC Report are now color-coded into three tiers (red, yellow, green) using VS Code's `testing.coverageBarThresholds` setting. Icon and bar colors can be customized via `workbench.colorCustomizations`.

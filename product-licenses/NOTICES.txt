@@ -1,6 +1,6 @@
 NOTICES AND INFORMATION
 
-IBM Compiled Code Coverage 1.0.7
+IBM Compiled Code Coverage 1.0.8
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -502,28 +502,6 @@ MIT License:
   Copyright (c) 2021 FormatJS
 - @parcel/watcher
   Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-android-arm64
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-darwin-arm64
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-darwin-x64
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-freebsd-x64
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-linux-arm-glibc
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-linux-arm-musl
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-linux-arm64-glibc
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-linux-arm64-musl
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-linux-x64-glibc
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-linux-x64-musl
-  Copyright (c) 2017-present Devon Govett
-- @parcel/watcher-win32-arm64
-  Copyright (c) 2017-present Devon Govett
 - @parcel/watcher-win32-x64
   Copyright (c) 2017-present Devon Govett
 - @reduxjs/toolkit
@@ -859,10 +837,10 @@ END OF Unlicense LICENSE NOTICES AND INFORMATION
 
 
 ======================================================================
-END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.7
+END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.8
 ======================================================================
 
 
-L/N: L-ZGRJ-RVG949
-D/N: L-ZGRJ-RVG949
-P/N: L-ZGRJ-RVG949
+L/N: L-GASY-GMJ7JW
+D/N: L-GASY-GMJ7JW
+P/N: L-GASY-GMJ7JW
