@@ -78,6 +78,14 @@ To view results:
 1. After providing credentials, a list of your results appear.
 1. Use the context menu to select the View Report action and open the report.
 
+## Importing Results
+
+You can import `.cczip` coverage results into any connected CCS location directly from the VS Code extension:
+
+1. **Context menu** — right-click a connected location and select **Import**, then choose to import from the workspace or browse for files.
+1. **Drag-and-drop** — drag one or more results from one connected location and drop them onto another. Results are removed from the source location after a successful drop.
+1. **Copy and paste** — select results in a connected location, press **Ctrl+C**, then press **Ctrl+V** on a different connected location. Source results remain unchanged.
+
 ### Coverage Color Thresholds
 
 Coverage results in both the **Coverage Results View** and the **CC Report** are color-coded into three tiers:

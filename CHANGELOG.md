@@ -2,6 +2,14 @@
 
 All notable changes to the "IBM Compiled Code Coverage" extension will be documented in this file.
 
+## 1.0.9
+
+- User can now sort code coverage results in the Coverage Results View by name, date, or coverage using the sort menu.
+- User can import one or more `.cczip` coverage results into a connected CCS location via right-click **Import** context menu (from workspace, file browser), drag-and-drop (results are removed from the source), or copy and paste with Ctrl+C / Ctrl+V (source results remain unchanged).
+- User can now select multiple code coverage results and view a merged report using the **View Report** command.
+- User can now select multiple code coverage results and export a merged PDF using the **Export PDF** command.
+- Double-clicking a result in the Coverage Results View now opens the report.
+
 ## 1.0.8
 
 - Defect and security fixes.

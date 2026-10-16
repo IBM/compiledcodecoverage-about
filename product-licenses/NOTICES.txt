@@ -1,6 +1,6 @@
 NOTICES AND INFORMATION
 
-IBM Compiled Code Coverage 1.0.8
+IBM Compiled Code Coverage 1.0.9
 
 The IBM license agreement and any applicable information on the web
 download page for IBM products refers Licensee to this file for details
@@ -286,11 +286,11 @@ BSD-3-CLAUSE License:
 - d3-array
   Copyright 2010-2020 Mike Bostock
 - d3-cloud
-  Copyright (c) 2013, Jason Davies.
+  Copyright (c) 2013, Jason Davies
 - d3-dispatch
   Copyright 2010-2016 Mike Bostock
 - d3-ease
-  Copyright 2010-2021 Mike Bostock
+  Copyright 2010-2021 Mike Bostock,
   Copyright 2001 Robert Penner
 - d3-path
   Copyright 2015-2016 Mike Bostock
@@ -299,7 +299,7 @@ BSD-3-CLAUSE License:
 - d3-shape
   Copyright 2010-2015 Mike Bostock
 - hoist-non-react-statics
-  Copyright (c) 2015, Yahoo! Inc. All rights reserved.
+  Copyright (c) 2015, Yahoo! Inc.
 - intl-messageformat
   Copyright (c) 2021, Oath Inc.
 - react-intl
@@ -351,7 +351,7 @@ The Program includes some or all of the following that IBM obtained under the
 ZERO-Clause BSD License:
 
 - tslib
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 
 ----------------------------------------------------------------------
 
@@ -502,6 +502,28 @@ MIT License:
   Copyright (c) 2021 FormatJS
 - @parcel/watcher
   Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-android-arm64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-darwin-arm64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-darwin-x64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-freebsd-x64
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-arm-glibc
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-arm-musl
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-arm64-glibc
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-arm64-musl
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-x64-glibc
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-linux-x64-musl
+  Copyright (c) 2017-present Devon Govett
+- @parcel/watcher-win32-arm64
+  Copyright (c) 2017-present Devon Govett
 - @parcel/watcher-win32-x64
   Copyright (c) 2017-present Devon Govett
 - @reduxjs/toolkit
@@ -511,89 +533,89 @@ MIT License:
 - @standard-schema/utils
   Copyright (c) 2024 Fabian Hiller
 - @types/d3
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-array
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-axis
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-brush
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-chord
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-color
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-contour
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-delaunay
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-dispatch
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-drag
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-dsv
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-ease
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-fetch
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-force
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-format
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-geo
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-hierarchy
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-interpolate
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-path
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-polygon
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-quadtree
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-random
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-scale
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-scale-chromatic
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-selection
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-shape
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-time
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-time-format
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-timer
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-transition
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/d3-zoom
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/geojson
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/hoist-non-react-statics
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/prop-types
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/react
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/topojson
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/topojson-client
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/topojson-server
   Copyright (c) Microsoft Corporation.
 - @types/topojson-simplify
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/topojson-specification
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/trusted-types
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - @types/use-sync-external-store
-  Copyright (c) Microsoft Corporation.
+  Copyright (c) Microsoft Corporation
 - agent-base
   Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
 - asynckit
@@ -681,7 +703,7 @@ MIT License:
 - immer
   Copyright (c) 2017 Michel Weststrate
 - immutable
-  Copyright (c) 2014-present, Lee Byron and other contributors
+  Copyright (c) 2014-present, Lee Byron and other contributor
 - invariant
   Copyright (c) 2013-present, Facebook, Inc.
 - is-arrayish
@@ -717,22 +739,22 @@ MIT License:
 - open
   Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 - picomatch
-  Copyright (c) 2017-present, Jon Schlinkert.
+  Copyright (c) 2017-present, Jon Schlinkert
 - prop-types
   Copyright (c) 2013-present, Facebook, Inc.
 - proxy-from-env
   Copyright (C) 2016-2018 Rob Wu <rob@robwu.nl>
 - react
-  Copyright (c) Facebook, Inc. and its affiliates.
+  Copyright (c) Facebook, Inc. and its affiliates
 - react-dom
-  Copyright (c) Facebook, Inc. and its affiliates.
+  Copyright (c) Facebook, Inc. and its affiliates
 - react-fast-compare
   Copyright (c) 2018 Formidable Labs
   Copyright (c) 2017 Evgeny Poberezkin
 - react-is
-  Copyright (c) Facebook, Inc. and its affiliates.
+  Copyright (c) Facebook, Inc. and its affiliates
 - react-is
-  Copyright (c) Meta Platforms, Inc. and affiliates.
+  Copyright (c) Meta Platforms, Inc. and affiliates
 - react-redux
   Copyright (c) 2015-present Dan Abramov
 - react-router
@@ -758,7 +780,7 @@ MIT License:
 - sass
   Copyright (c) 2016, Google Inc.
 - scheduler
-  Copyright (c) Facebook, Inc. and its affiliates.
+  Copyright (c) Facebook, Inc. and its affiliates
 - set-cookie-parser
   Copyright (c) 2015 Nathan Friedly <nathan@nfriedly.com> (http://nfriedly.com/)
 - simple-swizzle
@@ -768,7 +790,7 @@ MIT License:
 - toggle-selection
   Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
 - use-sync-external-store
-  Copyright (c) Meta Platforms, Inc. and affiliates.
+  Copyright (c) Meta Platforms, Inc. and affiliates
 
 ----------------------------------------------------------------------
 
@@ -837,10 +859,10 @@ END OF Unlicense LICENSE NOTICES AND INFORMATION
 
 
 ======================================================================
-END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.8
+END OF NOTICES AND INFORMATION for IBM Compiled Code Coverage 1.0.9
 ======================================================================
 
 
-L/N: L-GASY-GMJ7JW
-D/N: L-GASY-GMJ7JW
-P/N: L-GASY-GMJ7JW
+L/N: L-UGCN-KJYGTT
+D/N: L-UGCN-KJYGTT
+P/N: L-UGCN-KJYGTT
